@@ -1,8 +1,8 @@
-const router = require('express').Router();
+const router = require('express').Router(); 
 
 // More code here in a moment
 // GET /places
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
     let places = [{
         name: 'H-Thai-ML',
         city: 'Seattle',
